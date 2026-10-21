@@ -1,0 +1,28 @@
+{
+  "name": "sunwin-ai-v11",
+  "version": "11.0.0",
+  "description": "AI Tài Xỉu Sunwin v11 - API Only Pattern Learning (không đọc file .txt)",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "fastify": "^4.28.0",
+    "@fastify/cors": "^9.0.0",
+    "node-fetch": "^3.3.2"
+  },
+  "keywords": [
+    "sunwin",
+    "tai-xiu",
+    "ai",
+    "pattern-learning",
+    "fastify"
+  ],
+  "author": "@cskhgiabao",
+  "license": "MIT"
+}
